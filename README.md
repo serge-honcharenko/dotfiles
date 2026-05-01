@@ -6,7 +6,7 @@
 + [[homebrew/brew](https://github.com/homebrew/brew)]
     Package management tool for MacOS
 + [[twpayne/chezmoi](https://github.com/twpayne/chezmoi)]
-    Dotfiles management tool. 
+    Dotfiles management tool 
 + [[neovim/neovim](https://github.com/neovim/neovim)]
     Text editor of choice
 + [[ghostty-org/ghostty](https://github.com/ghostty-org/ghostty)]
@@ -18,6 +18,10 @@
 + [[facebook/pyrefly](https://github.com/facebook/pyrefly)]
     Python LSP
 
+## Backup local config
+```shell
+tar -czf config-backup.tar.gz ~/.config
+```
 
 ## Apply the dotfiles
 ```shell
