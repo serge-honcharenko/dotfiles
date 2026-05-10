@@ -20,9 +20,9 @@
 + [[latex-lsp/texlab](https://github.com/latex-lsp/texlab)]
     LaTeX LSP
 + [[lervag/vimtex](https://github.com/lervag/vimtex)]
-    LaTeX filetype plugin for Vim/Neovim
+    Just a LaTeX plugin 
 + [[Skim](https://skim-app.sourceforge.io/)]
-    PDF viewer with SyncTeX support
+    PDF viewer 
 
 ## Backup local config
 ```shell
