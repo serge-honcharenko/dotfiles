@@ -17,6 +17,12 @@
     Terminal multiplexer
 + [[facebook/pyrefly](https://github.com/facebook/pyrefly)]
     Python LSP
++ [[latex-lsp/texlab](https://github.com/latex-lsp/texlab)]
+    LaTeX LSP
++ [[lervag/vimtex](https://github.com/lervag/vimtex)]
+    LaTeX filetype plugin for Vim/Neovim
++ [[Skim](https://skim-app.sourceforge.io/)]
+    PDF viewer with SyncTeX support
 
 ## Backup local config
 ```shell
