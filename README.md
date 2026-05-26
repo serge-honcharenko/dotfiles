@@ -4,24 +4,18 @@
 ## List of tools
 
 + [[homebrew/brew](https://github.com/homebrew/brew)]
-    Package management tool for MacOS
+    Package manager for MacOS
 + [[twpayne/chezmoi](https://github.com/twpayne/chezmoi)]
-    Dotfiles management tool 
+    Dotfiles manager
 + [[neovim/neovim](https://github.com/neovim/neovim)]
-    Text editor of choice
+    Text editor
 + [[ghostty-org/ghostty](https://github.com/ghostty-org/ghostty)]
     Terminal emulator
 + [[fish-shell/fish-shell](https://github.com/fish-shell/fish-shell)]
-    A command line shell that meets all of my needs. Using w. informative_vcs
+    A command line shell. Using with informative_vcs
 + [[tmux/tmux](https://github.com/tmux/tmux)]
     Terminal multiplexer
-+ [[facebook/pyrefly](https://github.com/facebook/pyrefly)]
-    Python LSP
-+ [[latex-lsp/texlab](https://github.com/latex-lsp/texlab)]
-    LaTeX LSP
-+ [[lervag/vimtex](https://github.com/lervag/vimtex)]
-    Just a LaTeX plugin 
-+ [[Skim](https://skim-app.sourceforge.io/)]
++ [[skim](https://skim-app.sourceforge.io/)]
     PDF viewer 
 
 ## Backup local config
@@ -39,4 +33,12 @@ chezmoi init --apply https://github.com/serge-honcharenko/dotfiles
 chezmoi purge
 chezmoi purge --binary
 ```
-<!-- brew uninstall <formulas> && brew autoremove && brew cleanup -->
+
+<!-- ## Remove brew formuls -->
+<!-- ```shell -->
+<!-- brew uninstall <tools> && brew autoremove && brew cleanup -->
+<!-- ``` -->
+<!---->
+<!-- ## Remove brew -->
+<!-- ```shell -->
+<!-- /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)" -->
