@@ -27,8 +27,6 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
 
-vim.lsp.inlay_hint.enable(true)
-
 local map = vim.keymap.set
 
 map("n", "<leader>ff", "<cmd>Telescope find_files<cr>")
