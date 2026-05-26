@@ -1,4 +1,4 @@
-local parsers = { "python", "lua", "vim", "latex" }
+local parsers = { "python", "lua", "vim", "latex", "zig" }
 
 return {
     "nvim-treesitter/nvim-treesitter",
