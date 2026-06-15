@@ -1,5 +1,6 @@
 local options = {
-    variant = "moon",
+    variant = "auto",
+    dark_variant = "moon",
     styles = {
         bold = true,
         italic = false,
